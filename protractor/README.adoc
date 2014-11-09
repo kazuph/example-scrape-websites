@@ -13,3 +13,10 @@ Required environment variables:
 
 * `MUFG_ID`
 * `MUFG_PASSWORD`
+
+== AU
+
+Required environment variables:
+
+* `AU_ID`
+* `AU_PASSWORD`
