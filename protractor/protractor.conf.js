@@ -28,6 +28,10 @@ exports.config = {
     mufg: {
       id: process.env.MUFG_ID,
       password: process.env.MUFG_PASSWORD
+    },
+    au: {
+      id: process.env.AU_ID,
+      password: process.env.AU_PASSWORD
     }
   }
 };
