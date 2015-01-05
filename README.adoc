@@ -1,8 +1,22 @@
-= example-scrape-websites
+= Scraping with Protractor
 
-Examples scripts using http://angular.github.io/protractor/[Protractor] and http://webdriver.io/[WebdriverIO] to scrape websites.
+Scrape websites using http://angular.github.io/protractor/[Protoractor].
 
-For details, look into the corresponding directories.
+	npm install
+	npm run scrape-mufg
 
-* link:/protractor/[Protractor]
-* link:/webdriverio/[WebdriverIO]
+== MUFG
+
+Scrapes http://direct.bk.mufg.jp/[三菱東京UFJ銀行] and prints current balance and stores last month's details to __YYYY__-__mm__.tsv.
+
+Required environment variables:
+
+* `MUFG_ID`
+* `MUFG_PASSWORD`
+
+== AU
+
+Required environment variables:
+
+* `AU_ID`
+* `AU_PASSWORD`
